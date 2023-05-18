@@ -1,0 +1,450 @@
+    1  lsusb
+    2  dmesg
+    3  cat /dev/ttyACM0 
+    4  sudo apt-get install wvdial
+    5  sudo apt-get install gnome-ppp
+    6  lsusb
+    7  dmesg
+    8  groups
+    9  exit
+   10  groups
+   11  sudo adduser pi dip
+   12  vim /etc/wvdial.conf 
+   13  sudo apt-get install vim
+   14  vim /etc/wvdial.conf 
+   15  wvdial
+   16  vim /etc/wvdial.conf 
+   17  wvdial
+   18  vim /etc/wvdial.conf 
+   19  wvdial
+   20  vim /etc/wvdial.conf 
+   21  wvdial
+   22  vim /etc/wvdial.conf 
+   23  wvdial
+   24  vim /etc/wvdial.conf 
+   25  wvdialconf 
+   26  sudo wvdialconf 
+   27  vim /etc/wvdial.conf 
+   28  wvdialconf 
+   29  wvdial
+   30  ip r
+   31  route -n
+   32  ifconfig -a
+   33  sudo apt-get install mgetty
+   34  vim /lib/systemd/system/mgetty.service
+   35  vim /etc/mgetty/mgetty.config 
+   36  sudo systemctl enable mgetty.service
+   37  sudo systemctl start mgetty.service
+   38  sudo systemctl status mgetty.service
+   39  vim /etc/ppp/options 
+   40  cd /etc/ppp
+   41  ls
+   42  sudo cp options options-bu
+   43  vim options
+   44  vim options.ttyACM0
+   45  sudo useradd -G dialout,dip,users -m -g users -s /usr/sbin/pppd dial
+   46  sudo passwd dial
+   47  vim pap-secrets 
+   48  sudo cat pap-secrets 
+   49  ls -lah
+   50  vim /etc/sysctl.conf 
+   51  vim /etc/rc.local 
+   52  sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+   53  sudo apt-get install iptables
+   54  sudo iptables -L
+   55  sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+   56  sudo iptables -L
+   57  sudo iptables -t nat -L
+   58  systemctl status mgetty
+   59  #systemctl status mgetty
+   60  ls
+   61  vim options.ttyACM0 
+   62  vim options
+   63  vim /etc/mgetty/mgetty.config #
+   64  systemctl status mgetty
+   65  systemctl restart mgetty
+   66  sudo systemctl restart mgetty
+   67  systemctl restart mgetty
+   68  systemctl status mgetty
+   69  tail -f /var/log/mgetty/mg_ttyACM0.log 
+   70  vim /etc/mgetty/mgetty.config
+   71  sudo systemctl stop mgetty
+   72  sudo systemctl status mgetty
+   73  sudo systemctl start mgetty
+   74  sudo systemctl status mgetty
+   75  vim /lib/systemd/system/mgetty.service 
+   76  sudo systemctl status mgetty
+   77  tail -f /var/log/mgetty/mg_ttyACM0.log 
+   78  sudo systemctl stop mgetty
+   79  vim /etc/mgetty/mgetty.config
+   80  sudo systemctl start mgetty
+   81  sudo systemctl status mgetty
+   82  sudo systemctl stop mgetty
+   83  sudo systemctl status mgetty
+   84  sudo systemctl start mgetty
+   85  sudo systemctl status mgetty
+   86  tail -f /var/log/mgetty/mg_ttyACM0.log 
+   87  man mgetty
+   88  man mgetty.info
+   89  man mgettydefs
+   90  man mgetty
+   91  vim /etc/mgetty/mgetty.config
+   92  sudo systemctl stop mgetty
+   93  sudo systemctl status mgetty
+   94  sudo systemctl start mgetty
+   95  sudo systemctl status mgetty
+   96  sudo systemctl start mgetty
+   97  sudo systemctl status mgetty
+   98  sudo systemctl stop mgetty
+   99  sudo systemctl status mgetty
+  100  sudo systemctl start mgetty
+  101  sudo systemctl status mgetty
+  102  cat
+  103  ls
+  104  vim options
+  105  vim options.ttyACM0 
+  106  iptables -L
+  107  sudo iptables -L
+  108  sudo iptables -L -t nate
+  109  sudo iptables -L -t nat
+  110  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  111  vim /usr/share/doc/mgetty/README.Debian 
+  112  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  113  ip r
+  114  route -n
+  115  vim /etc/ppp/options
+  116  vim /etc/ppp/options.ttyACM0 
+  117  systemctl status ppp
+  118  systemctl status mgetty
+  119  systemctl stop mgetty
+  120  sudo systemctl stop mgetty
+  121  sudo systemctl start mgetty
+  122  sudo systemctl status mgetty
+  123  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  124  sudo systemctl status mgetty
+  125  sudo systemctl stop mgetty
+  126  sudo systemctl start mgetty
+  127  sudo systemctl status mgetty
+  128  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  129  vim /etc/ppp/options.ttyACM0 
+  130  vim /etc/ppp/options
+  131  sudo systemctl status mgetty
+  132  sudo systemctl stop mgetty
+  133  sudo systemctl start mgetty
+  134  sudo systemctl status mgetty
+  135  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  136  vim /etc/ppp/options
+  137  sudo systemctl restart mgetty
+  138  sudo systemctl status mgetty
+  139  tail -f /var/log/mgetty/mg_ttyACM0.log 
+  140  vim /etc/wvdial.conf 
+  141  wvdial
+  142  cat /etc/wvdial.conf 
+  143  wvdial
+  144  sudo wvdial
+  145  ip a
+  146  cat /etc/wvdial.conf 
+  147  vim /etc/mgetty/mgetty.config 
+  148  sudo systemctl stop mgetty
+  149  sudo systemctl status mgetty
+  150  sudo systemctl start mgetty
+  151  sudo systemctl status mgetty
+  152  ping 192.168.32.105
+  153  vim /etc/mgetty/dialin.config 
+  154  vim /etc/mgetty/login.config 
+  155  sudo vim /etc/mgetty/login.config 
+  156  vim /etc/mgetty/mgetty.config 
+  157  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+  158  cat /etc/sysctl.conf 
+  159  sudo sysctl net.ipv4.ip_forward=1
+  160  vim /etc/ppp/options
+  161  vim /etc/ppp/options.ttyACM0 
+  162  vim /etc/ppp/options-bu
+  163  pppstats 
+  164  pppstats -z
+  165  ping 1.1.1.1
+  166  cd
+  167  sudo apt-get install apache2
+  168  sudo usermod -a -G www-data pi
+  169  sudo chown -R -f www-data:www-data /var/www/html
+  170  cd /var/www/html
+  171  ls -la
+  172  sudo apt install dnsmasq
+  173  vim /etc/dnsmasq.d/README
+  174  vim /etc/default/dnsmasq 
+  175  vim /etc/dnsmasq.conf 
+  176  vim /etc/hosts
+  177  sudo systemctl restart dnsmasq.service 
+  178  sudo systemctl status dnsmasq.service 
+  179  dig A home.leigh @127.0.0.1
+  180  sudo apt install dnsutils
+  181  dig A home.leigh @127.0.0.1
+  182  vim /etc/ppp/options
+  183  sudo systemctl restart mgetty
+  184  sudo systemctl status mgetty
+  185  sudo systemctl restart mgetty
+  186  sudo systemctl status mgetty
+  187  sudo systemctl status dnsmasq
+  188  vim /etc/dnsmasq.conf 
+  189  sudo systemctl status dnsmasq
+  190  vim /lib/systemd/system/dnsmasq.service 
+  191  vim /lib/systemd/system/dnsmasq@.service 
+  192  vim /etc/init.d/dnsmasq 
+  193  sudo systemctl restart dnsmasq
+  194  sudo systemctl status dnsmasq
+  195  vim /etc/init.d/dnsmasq 
+  196  sudo systemctl restart dnsmasq
+  197  sudo systemctl status dnsmasq
+  198  vim /etc/ppp/options.ttyACM0 
+  199  ls
+  200  ls -la
+  201  mv index.html index-old.html 
+  202  sudo mv index.html index-old.html 
+  203  vim index.html
+  204  sudo cp ~/Downloads/*.png .
+  205  vim index.html 
+  206  sudo systemctl status apache2.service 
+  207  systemctl status dnsmasq.service 
+  208  sudo systemctl restart dnsmasq.service 
+  209  systemctl status dnsmasq.service 
+  210  cat /etc/hosts
+  211  dig A home.leigh @127.0.0.1
+  212  exit
+  213  ifconfig
+  214  passwd
+  215  ssh 10.1.1.1
+  216  ssh admin@10.1.1.1
+  217  sudo service dhcpcd status
+  218  sudo nano /etc/dhcpcd.conf
+  219  if config
+  220  ifconfig
+  221  sudo reboot
+  222  ifconfig
+  223  ping 10.1.1.1
+  224  ssh admin@10.1.1.1
+  225  ping 10.1.1.1
+  226  ssh admin@10.1.1.1
+  227  ifconfig
+  228  ssh admin@10.1.1.1
+  229  ssh admin@192.168.66.14
+  230  ping 192.168.66.14
+  231  ssh admin@10.1.1.1
+  232  ssh admin@10.1.1.1 -p 8122
+  233  ifconfig
+  234  ping 10.1.1.1
+  235  ssh admin@10.1.1.1 -p 8122
+  236  ifconfig
+  237  tracert 192.168.66.254
+  238  trace rt 192.168.66.254
+  239  ssh admin@10.1.1.1 -p 8122
+  240  history
+  241  vim /etc/ppp/options
+  242  vim /etc/mgetty/dialin.config
+  243  vim /etc/mgetty/mgetty.config
+  244  sudo apt install asterisk
+  245  nano /etc/asterisk/extensions.conf
+  246  sudo nano /etc/asterisk/extensions.conf
+  247  sudo systemctl enable asterisk
+  248  sudo systemctl start asterisk
+  249  nano /etc/asterisk/sip.conf
+  250  sudo nano /etc/asterisk/sip.conf
+  251  sudo systemctl restart asterisk
+  252  sudo asterisk -rvvvv
+  253  tail -f /var/log/mgetty/mg_ttyACM0.log
+  254  history
+  255  asterisk -Lvvv
+  256  asterisk -Lvvvv
+  257  sudo asterisk -Lvvvv
+  258  sudo asterisk -rvvvv
+  259  sudo service asterisk restart
+  260  sudo asterisk -rvvvv
+  261  sudo reboot
+  262  tail -f /var/log/mgetty/mg_ttyACM0.log
+  263  ifconfig
+  264  sudo asterisk -rvvvv
+  265  tail -f /var/log/mgetty/mg_ttyACM0.log
+  266  vim /etc/mgetty/mgetty.config 
+  267  tail -f /var/log/mgetty/mg_ttyACM0.log
+  268  vim /etc/mgetty/mgetty.config 
+  269  sudo systemctl restart mgetty
+  270  sudo systemctl status mgetty
+  271  vim /etc/mgetty/mgetty.config 
+  272  tail -f /var/log/mgetty/mg_ttyACM0.log
+  273  vim /etc/mgetty/mgetty.config 
+  274  sudo systemctl restart mgetty
+  275  sudo systemctl status mgetty
+  276  tail -f /var/log/mgetty/mg_ttyACM0.log
+  277  ip a
+  278  vim /etc/default/networking 
+  279  history
+  280  history | grep nano
+  281  vim /etc/dhcpcd.conf 
+  282  sudo systemctl status dhcpcd.service 
+  283  sudo systemctl restart dhcpcd.service 
+  284  sudo systemctl status dhcpcd.service 
+  285  ip a
+  286  vim /etc/asterisk/extensions.conf 
+  287  sudo vim /etc/asterisk/extensions.conf 
+  288  sudo vim /etc/asterisk/sip.conf 
+  289  tail -f /var/log/mgetty/mg_ttyACM0.log
+  290  vim /etc/asterisk/codecs.conf 
+  291  tail -f /var/log/mgetty/mg_ttyACM0.log
+  292  sudo systemctl status mgetty.service 
+  293  sudo systemctl restart mgetty.service 
+  294  sudo systemctl status mgetty.service 
+  295  tail -f /var/log/mgetty/mg_ttyACM0.log
+  296  sudo iptables -t nat -L
+  297  sudo iptables -t nat -L -n
+  298  sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  299  sudo iptables -t nat -L -n
+  300  sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+  301  sudo iptables -t nat -L -n
+  302  systemctl status dnsmasq.service 
+  303  sudo systemctl restart dnsmasq.service 
+  304  systemctl status dnsmasq.service 
+  305  ip a
+  306  tail -f /var/log/mgetty/mg_ttyACM0.log
+  307  sudo systemctl restart mgetty.service 
+  308  tail -f /var/log/mgetty/mg_ttyACM0.log
+  309  sudo systemctl restart mgetty.service 
+  310  tail -f /var/log/mgetty/mg_ttyACM0.log
+  311  htop
+  312  sudo systemctl restart asterisk.service 
+  313  sudo systemctl status asterisk.service 
+  314  cd /etc/asterisk/
+  315  ls
+  316  vim sip.conf 
+  317  sudo vim sip.conf 
+  318  sudo vim codecs.conf 
+  319  ls
+  320  sudo su
+  321  ip a
+  322  sudo su
+  323  ls -la
+  324  wget -O .screenrc https://adamprescott.keybase.pub/screenrc
+  325  ping 1.1.1.1
+  326  cat /etc/host
+  327  cat /etc/hosts
+  328  #sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+  329  ping home.leigh
+  330  sudo iptables -t nat -L -n
+  331  sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  332  sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+  333  sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+  334  sudo iptables -t nat -L -n
+  335  systemctl status dnsmasq.service 
+  336  ip a
+  337  systemctl status dnsmasq.service 
+  338  cd /var/log
+  339  ls
+  340  journalctl -xe
+  341  systemctl restart dnsmasq.service 
+  342  sudo systemctl restart dnsmasq.service 
+  343  sudo systemctl status dnsmasq.service 
+  344  tail -f /var/log/mgetty/mg_ttyACM0.log
+  345  cd /var/www/html/
+  346  ls -lah
+  347  vim index.html
+  348  php -v
+  349  cd
+  350  wget -O .screenrc https://adamprescott.keybase.pub/screenrc
+  351  ip a
+  352  sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o wlan0 -j MASQUERADE
+  353  sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  354  ifdown wlan0
+  355  sudo ifdown wlan0
+  356  ip a
+  357  nm 
+  358  networkctl help
+  359  ip a
+  360  sudo systemctl restart dnsmasq.service 
+  361  sudo systemctl status dnsmasq.service 
+  362  vim /etc/hosts
+  363  sudo systemctl restart dnsmasq.service 
+  364  vim /etc/hosts
+  365  sudo systemctl restart dnsmasq.service 
+  366  sudo systemctl status dnsmasq.service 
+  367  cat /etc/hosts
+  368  dig login.live.com
+  369  dig login.live.com @127.0.0.1
+  370  tail -f /var/log/mgetty/mg_ttyACM0.log
+  371  cat /etc/mgetty/login.config 
+  372  sudo cat /etc/mgetty/login.config 
+  373  sudo cat /etc/ppp/pap-secrets 
+  374  sudo cat /etc/ppp/chap-secrets 
+  375  tail -f /var/log/mgetty/mg_ttyACM0.log
+  376  cat /etc/mgetty/login.config 
+  377  sudo cat /etc/mgetty/login.config 
+  378  sudo cat /etc/ppp/pap-secrets 
+  379  tail -f /var/log/mgetty/mg_ttyACM0.log
+  380  clear
+  381  exit
+  382  ls
+  383  sudo systemctl status dnsmasq.service 
+  384  vim /etc/mgetty/mgetty.config 
+  385  vim /etc/mgetty/dialin.config
+  386  vim /etc/ppp/options
+  387  vim /etc/dnsmasq.conf 
+  388  sudo systemctl restart dnsmasq.service 
+  389  sudo systemctl status dnsmasq.service 
+  390  #sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  391  ifconfig 
+  392  vim /etc/default/networking 
+  393  #sudo iptables -t nat -A POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  394  sudo iptables -t nat -l
+  395  sudo iptables -t nat -L
+  396  #vim options
+  397  sudo iptables -t nat -L -n
+  398  sudo iptables -t nat -D POSTROUTING -s 192.168.32.0/24 -o eth0 -j MASQUERADE
+  399  sudo iptables -S
+  400  sudo iptables -L -v -n
+  401  sudo iptables -L -v -n -t nat
+  402  sudo iptables -S -t nat
+  403  htop
+  404  curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb &&  sudo dpkg -i cloudflared.deb &&  sudo cloudflared service install [Redacted]
+  405  cd Downloads/
+  406  sudo dpkg -i cloudflared-linux-armhf.deb
+  407  sudo cloudflared service install [redacted]
+  408  systemctl status cloudflared
+  409  vim /etc/wpa_supplicant/wpa_supplicant.conf 
+  410  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+  411  systemctl status wpa_supplicant.service 
+  412  systemctl restart wpa_supplicant.service 
+  413  sudo systemctl restart wpa_supplicant.service 
+  414  systemctl status wpa_supplicant.service 
+  415  systemctl restart networking.service 
+  416  sudo systemctl restart networking.service 
+  417  systemctl status networking.service 
+  418  systemctl status NetworkManager.service 
+  419  reboot
+  420  exit
+  421  sudo vim /etc/ppp/chap-secrets 
+  422  tail -f /var/log/mgetty/mg_ttyACM0.log
+  423  vim /etc/mgetty/login.config 
+  424  sudo vim /etc/mgetty/login.config 
+  425  sudo vim /etc/ppp/chap-secrets 
+  426  sudo vim /etc/ppp/options
+  427  tail -f /var/log/mgetty/mg_ttyACM0.log
+  428  sudo vim /etc/ppp/options
+  429  sudo vim /etc/ppp/options.ttyACM0 
+  430  sudo vim /etc/ppp/pap-secrets 
+  431  sudo vim /etc/mgetty/login.config 
+  432  sudo vim /etc/mgetty/dialin.config 
+  433  cat /etc/passwd
+  434  tail -f /var/log/mgetty/mg_ttyACM0.log
+  435  cat /etc/host
+  436  cat /etc/hosts
+  437  ls
+  438  cd /var/www
+  439  ls
+  440  cd html/
+  441  ls
+  442  tail -f /var/log/mgetty/mg_ttyACM0.log
+  443  poweroff 
+  444  htop
+  445  poweroff -i
+  446  systemctl poweroff -i
+  447  poweroff
+  448  sudo poweroff
+  449  exit
+  450  sudo poweroff
