@@ -1,0 +1,16 @@
+127.0.0.1	localhost
+::1		localhost ip6-localhost ip6-loopback
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+
+127.0.1.1		raspberrypi
+192.168.32.1	home.leigh
+143.198.4.104 m1.escargot.log1p.xyz
+143.198.4.104 messenger.hotmail.com
+143.198.4.104 login.live.com
+143.198.4.104 gateway.messenger.hotmail.com
+143.198.4.104 byrdr.omega.contacts.msn.com
+143.198.4.104 config.messenger.msn.com
+143.198.4.104 tkrdr.storage.msn.com
+143.198.4.104 ows.messenger.msn.com
+143.198.4.104 rsi.hotmail.co
